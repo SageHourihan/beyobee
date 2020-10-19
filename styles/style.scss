@@ -1,0 +1,50 @@
+$primaryColor: #EFC24B;
+$secondaryColor: #F1DD72;
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right, $primaryColor, $secondaryColor);
+}
+
+main {
+    font-family: "Heebo", sans-serif;
+}
+
+.landing {
+    min-height: 100vh;
+    padding: 0rem 5rem;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+}
+
+.navLinks li {
+    padding-left: 3rem;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-left: .3rem;
+}
+ .logo {
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+ }
+.tagLine {
+    font-family: "Heebo", sans-serif;
+    font-weight: lighter;
+    font-size: .8rem;
+}

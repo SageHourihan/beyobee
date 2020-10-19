@@ -1,1 +1,60 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#EFC24B), to(#F1DD72));
+  background-image: linear-gradient(to right, #EFC24B, #F1DD72);
+}
+
+main {
+  font-family: "Heebo", sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  padding: 0rem 5rem;
+  background-size: cover;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 10vh;
+}
+
+.navLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navLinks li {
+  padding-left: 3rem;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-left: .3rem;
+}
+
+.logo {
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+}
+
+.tagLine {
+  font-family: "Heebo", sans-serif;
+  font-weight: lighter;
+  font-size: .8rem;
+}
+/*# sourceMappingURL=style.css.map */
