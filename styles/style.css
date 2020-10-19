@@ -40,13 +40,19 @@ nav {
   list-style: none;
 }
 
-.navLinks li {
+.navLink {
   padding: .2rem 1rem;
   border: 3px solid white;
   background-color: white;
   color: #626262;
   border-radius: 30px;
   margin-left: .3rem;
+}
+
+.blog {
+  margin: 8px 0 0 12px;
+  color: white;
+  font-family: "Heebo", sans-serif;
 }
 
 .logo {
@@ -59,5 +65,9 @@ nav {
   font-weight: lighter;
   font-size: .8rem;
   margin-top: -.2rem;
+}
+
+.content {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
