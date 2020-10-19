@@ -7,6 +7,11 @@ $secondaryColor: #F1DD72;
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
 body {
     background-image: linear-gradient(to right, $primaryColor, $secondaryColor);
 }
@@ -50,7 +55,7 @@ nav {
 
  .logo {
     font-family: "Heebo", sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
  }
 .tagLine {
     font-family: "Heebo", sans-serif;
@@ -76,4 +81,26 @@ nav {
     width: 500px;
     margin: 30px 0;
     line-height: 1.4;
+}
+
+.phone {
+    transform: translate(300%,-80%);
+    height: 500px;
+    width: auto;
+}
+
+.appleLink {
+    margin: 0;
+    padding: 0;
+    height: 125px;
+    width: auto;
+    transform: translate(40%,-400%);
+}
+
+.googleLink {
+    margin: 0;
+    padding: 0;
+    height: 125px;
+    width: auto;
+    transform: translate(50%,-400%);
 }
