@@ -41,9 +41,11 @@ nav {
 }
 
 .navLinks li {
-  padding-left: 3rem;
+  padding: .2rem 1rem;
   border: 3px solid white;
-  border-radius: 10px;
+  background-color: white;
+  color: #626262;
+  border-radius: 30px;
   margin-left: .3rem;
 }
 
@@ -56,5 +58,6 @@ nav {
   font-family: "Heebo", sans-serif;
   font-weight: lighter;
   font-size: .8rem;
+  margin-top: -.2rem;
 }
 /*# sourceMappingURL=style.css.map */
