@@ -2,7 +2,7 @@ $primaryColor: #EFC24B;
 $secondaryColor: #F1DD72;
 
 
-*{ 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,6 +12,7 @@ html {
     overflow: hidden;
     height: 100%;
 }
+
 body {
     background-image: linear-gradient(to bottom right, $primaryColor, $secondaryColor);
 }
@@ -47,17 +48,24 @@ nav {
     margin-left: .3rem;
 }
 
-.blog{ 
+.blog {
     margin: 8px 0 0 12px;
     color: white;
     font-family: "Heebo", sans-serif;
 }
 
- .logo {
+.logo {
     font-family: "Heebo", sans-serif;
     font-weight: lighter;
     margin-left: 3rem;
- }
+    transform: translate(80%, -200%);
+}
+
+.logoImg {
+    height: 15vh;
+    margin: 0 1.5rem 0 2.5rem;
+}
+
 .tagLine {
     font-family: "Heebo", sans-serif;
     font-weight: lighter;
@@ -86,7 +94,7 @@ nav {
 }
 
 .phone {
-    transform: translate(300%,-80%);
+    transform: translate(300%, -80%);
     height: 500px;
     width: auto;
     filter: drop-shadow(0px 5px 5px black);
@@ -98,7 +106,7 @@ nav {
     padding: 0;
     height: 125px;
     width: auto;
-    transform: translate(40%,-400%);
+    transform: translate(40%, -400%);
 }
 
 .googleLink {
@@ -106,16 +114,17 @@ nav {
     padding: 0;
     height: 125px;
     width: auto;
-    transform: translate(50%,-400%);
+    transform: translate(50%, -400%);
 }
 
 @keyframes drop {
     0% {
         opacity: 0;
-        transform: translate(300%,-100%);
+        transform: translate(300%, -100%);
     }
+
     100% {
         opacity: 1;
-        transform: translate(300%,-80%);
+        transform: translate(300%, -80%);
     }
 }

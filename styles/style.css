@@ -64,6 +64,13 @@ nav {
   font-family: "Heebo", sans-serif;
   font-weight: lighter;
   margin-left: 3rem;
+  -webkit-transform: translate(80%, -200%);
+          transform: translate(80%, -200%);
+}
+
+.logoImg {
+  height: 15vh;
+  margin: 0 1.5rem 0 2.5rem;
 }
 
 .tagLine {
